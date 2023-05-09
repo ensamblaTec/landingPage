@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&family=Shadows+Into+Light&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Acme", sans-serif;
+  font-family: "Indie Flower", cursive;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4235294118) 0%, rgba(255, 255, 255, 0.2352941176) 100%), url("../assets/wallpaper/wallpaper.jpeg");
+  background-size: cover;
+  z-index: -1;
+}
+
+body {
+  background-color: #EFEFF0;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5rem 2rem 0 2rem;
+  height: 1000px;
+  font-size: 1.25rem;
+}
+.header .logo-container .logo {
+  color: #fff;
+}
+.header .nav {
+  margin-left: auto;
+}
+.header .nav a {
+  margin: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+.header .nav a:hover {
+  color: coral;
+}
+
+.main {
+  margin: 20px;
+}
+.main .landing-about {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4235294118);
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.631372549);
+}
+.main .landing-about .first-landing .image-definition {
+  width: 400px;
+  height: 400px;
+}
+.main .landing-about .second-landing {
+  padding: 20px;
+}
+.main .landing-about .second-landing ul li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */
