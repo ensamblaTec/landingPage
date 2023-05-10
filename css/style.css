@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #EFEFF0;
+  background-color: #efeff0;
 }
 
 .header {
@@ -91,12 +91,22 @@ body {
 footer {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  max-width: 1200px;
 }
 footer .contact {
   display: flex;
   gap: 10px;
+}
+footer .contact .btn {
+  color: #fff;
+  background-color: #004e64;
+  border-color: #004e64;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  border-radius: 0.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */
