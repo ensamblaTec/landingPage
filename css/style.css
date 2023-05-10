@@ -44,19 +44,14 @@ body {
   color: coral;
 }
 
-.main {
-  margin: 20px;
-}
 .main .landing-about {
-  width: 100%;
-  max-width: 1200px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   text-align: center;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4235294118);
   margin: 0 auto;
-  padding: 20px;
+  max-width: 1200px;
   background-color: rgba(255, 255, 255, 0.631372549);
 }
 .main .landing-about .first-landing .image-definition {
@@ -68,6 +63,20 @@ body {
 }
 .main .landing-about .second-landing ul li {
   list-style: none;
+}
+
+.developers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 1210px;
+  gap: 3px;
+}
+.developers .biography-landing .biography-landing-photo {
+  width: 400px;
+  height: 400px;
 }
 
 /*# sourceMappingURL=style.css.map */
