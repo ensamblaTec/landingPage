@@ -11,17 +11,17 @@ Page. Building **Landing Page**
 
 | Name           | Completed |
 | ------------   | :-------: |
-| Landing Page   |     ☑️     |
-| Navbar         |     ☑️     |
-| Teamwork Photo |     ☑️     |
-| Describe all services      |     ☑️     |
-| Contact Page   |     ☑️     |
-| Section with all members |     ☑️     |
-| Site Host... |     ☑️     |
-| Requirements list |     ☑️     |
-| Story Map |     ☑️     |
-| User Stories |     ☑️     |
-| Estimate User Stories |     ☑️     |
+| Landing Page   |     ✅     |
+| Navbar         |     ✅     |
+| Teamwork Photo |     ✅     |
+| Describe all services      |     ✅     |
+| Contact Page   |     ✅     |
+| Section with all members |     ✅     |
+| Site Host... |     ✅     |
+| Requirements list |     ✅     |
+| Story Map |     ✅     | 
+| User Stories |     ✅     |
+| Estimate User Stories |     ✅     |
 | Build site |     👷🏽‍♂️     |
 
 
