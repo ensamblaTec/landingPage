@@ -147,6 +147,8 @@ footer {
   margin-bottom: 50px;
 }
 footer .contact {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4235294118);
+  padding: 20px;
   display: flex;
   font-size: 20px;
 }
