@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   font-family: "Acme", sans-serif;
-  font-family: "Indie Flower", cursive;
 }
 
 .header::before {
@@ -13,8 +12,22 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4235294118) 0%, rgba(255, 255, 255, 0.2352941176) 100%), url("../assets/wallpaper/portada.jpeg");
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4235294118) 0%, rgba(255, 255, 255, 0.2352941176) 100%), url("../assets/wallpaper/wallpaper-server.jpg");
   background-size: cover;
+  z-index: -2;
+}
+
+.header::after {
+  content: "";
+  padding: 0;
+  margin: 0;
+  height: 30%;
+  width: 100%;
+  position: relative;
+  background: #efeff0;
+  border-radius: 50%;
+  bottom: -43%;
+  transition: all 0.2s;
   z-index: -1;
 }
 
@@ -25,22 +38,28 @@ body {
 .header {
   display: flex;
   flex-wrap: wrap;
-  margin: 1.5rem 2rem 0 2rem;
   height: 1000px;
   font-size: 1.25rem;
+}
+.header .logo-container {
+  margin: 30px;
 }
 .header .logo-container .logo {
   color: #fff;
 }
 .header .nav {
+  margin: 30px;
   margin-left: auto;
 }
 .header .nav a {
-  margin: 0.5rem;
+  margin: 0.1rem;
   color: white;
   text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
 }
 .header .nav a:hover {
+  background: #2a2a2a;
   color: coral;
 }
 
@@ -81,11 +100,39 @@ body {
 .developers .developers-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 10px;
 }
-.developers .developers-container .biography-landing .biography-landing-photo {
-  width: 400px;
-  height: 400px;
+.developers .developers-container .biography-landing {
+  display: flex;
+  flex-flow: column wrap;
+  max-height: 100%;
+  max-width: 35%;
+  border: solid 0.1rem rgba(0, 0, 0, 0.1019607843);
+  padding: 20px;
+  gap: 10px;
+  word-wrap: break-word;
+}
+.developers .developers-container .biography-landing .biography-landing-information {
+  display: flex;
+  gap: 10px;
+}
+.developers .developers-container .biography-landing .biography-landing-information .biography-landing-photo {
+  width: 80px;
+  height: 80px;
+  clip-path: circle(40px);
+}
+.developers .developers-container .biography-landing .biography-landing-information .biography-landing-job {
+  color: rgba(0, 0, 0, 0.2941176471);
+}
+.developers .developers-container .biography-landing .biography-landing-information .biography-landing-content-info {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.developers .developers-container .biography-landing .biography-landing-info {
+  text-align: justify;
+  max-width: 100%;
 }
 
 footer {
@@ -107,6 +154,16 @@ footer .contact .btn {
   font-weight: bold;
   letter-spacing: 0.05em;
   border-radius: 0.25rem;
+}
+
+.services {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 1210px;
+  gap: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */

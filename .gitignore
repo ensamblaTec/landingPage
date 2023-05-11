@@ -5,3 +5,9 @@
 *.sass.map
 *.scss.map
 ### END Sass ###
+### Assets photos ###
+.assets/photos
+*.jpeg
+*.png
+*.jpg
+### END Assets photos ###
