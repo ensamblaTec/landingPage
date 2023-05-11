@@ -6,8 +6,8 @@
 *.scss.map
 ### END Sass ###
 ### Assets photos ###
-.assets/photos
-*.jpeg
-*.png
-*.jpg
+# .assets/photos
+# *.jpeg
+# *.png
+# *.jpg
 ### END Assets photos ###
