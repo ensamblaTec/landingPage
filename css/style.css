@@ -119,6 +119,7 @@ body {
   gap: 10px;
 }
 .developers .developers-container .biography-landing .biography-landing-information .biography-landing-photo {
+  border: solid 0.1rem #000;
   width: 80px;
   height: 80px;
   clip-path: circle(40px);
